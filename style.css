@@ -211,16 +211,11 @@ section, header, footer {
 .image-card img {
   width: 100%;
   border-radius: 16px;
-  filter: grayscale(30%);
 }
 
 .image-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 30px 60px rgba(0,0,0,0.45);
-}
-
-.image-card:hover img {
-  filter: grayscale(0%);
 }
 
 /* ================= COMPETENCIES ================= */
@@ -1238,4 +1233,5 @@ section {
     animation: none;
   }
 }
+
 
