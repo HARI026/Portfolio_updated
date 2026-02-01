@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hari | Portfolio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">Hari_Dev</div>
+
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#competencies">Competencies</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a class="btn-download" href="assets/Hari's Resume.pdf" target="_blank">Download CV</a>
+
+  <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  
+</header>
+
+<!-- ================= HERO / PROFILE ================= -->
+<section class="hero" id="profile">
+
+  <div class="hero-right">
+    <div class="image-card">
+      <img src="assets/Profile.webp" alt="Harish Profile">
+    </div>
+  </div>
+
+  <div class="hero-left">
+    <span class="badge">📍 Tamil Nadu, India</span>
+
+    <h1>Harish S</h1>
+    <h3>eLearning Developer <span>|</span> Frontend Developer</h3><br>
+
+    <p>
+      Passionate eLearning professional focused on designing engaging digital learning 
+      experiences through effective instructional design and multimedia development. 
+      I translate complex concepts into clear, accessible, and highly interactive 
+      learning solutions.
+    </p>
+
+    <div class="cta">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="#contact" class="btn-secondary">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMPETENCIES ================= -->
+<section class="competencies" id="competencies">
+  <div class="section-header">
+    <h3>Core Competencies</h3>
+    <span class="line"></span>
+  </div>
+
+  <div class="competency-grid">
+
+    <div class="competency-card">
+      <div class="card-header">
+        <i class="fas fa-graduation-cap"></i>
+        <h4>Learning Technology</h4>
+      </div>
+      <ul>
+        <li>Instructional Design</li>
+        <li>LMS Management</li>
+        <li>SCORM & xAPI</li>
+        <li>Interactive Learning</li>
+      </ul>
+    </div>
+
+    <div class="competency-card">
+      <div class="card-header">
+        <i class="fas fa-code"></i>
+        <h4>Web Development</h4>
+      </div>
+      <ul>
+        <li>Frontend Development</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React Components</li>
+        <li>Responsive UI</li>
+      </ul>
+    </div>
+
+    <div class="competency-card">
+      <div class="card-header">
+        <i class="fas fa-tools"></i>
+        <h4>Tools & Platforms</h4>
+      </div>
+      <ul>
+        <li>Articulate Storyline / Rise 360</li>
+        <li>Camtasia</li>
+        <li>Photoshop</li>
+        <li>VS Code</li>
+        <li>AI Tools</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects-home" id="projects">
+  <div class="projects-header">
+    <h2>Enterprise Project Portfolio</h2><br>
+    <p>Enterprise-grade frontend and eLearning implementations.</p>
+  </div>
+
+  <article class="project-card">
+    <div class="project-content">
+      <br>
+      <h3>Smart Management for Comfortable Living</h3>
+      <p class="project-role">Web Developer</p>
+
+      <div class="project-columns">
+        <div>
+          <h4>Objective</h4>
+          <p>Centralize apartment operations through a smart, user-friendly management system.</p>
+        </div>
+
+        <div>
+          <h4>Deliverables</h4>
+          <ul>
+            <li>Tenant Dashboard</li>
+            <li>Maintenance Requests</li>
+            <li>Payment Management </li>
+            <li>Announcements</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-tech">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>SQL</span>
+        <span>xAPI</span>
+      </div>
+
+      <div class="project-actions">
+        <a class="btn-primary">Live Demo</a>
+        <a class="btn-secondary">Repository</a>
+      </div>
+    </div>
+
+    <div class="project-image">
+  <a href="#" target="_blank" aria-label="Explore AMS Project">
+    <img src="assets/AMS Preview.webp" alt="AMS Apartment Management System Preview">
+
+    <div class="image-overlay">
+      <i class="fas fa-search"></i>
+      <span>Explore</span>
+    </div>
+  </a>
+</div>
+
+  </article>
+</section>
+
+<!-- ================= CONTACT (JS READY) ================= -->
+<section class="contact" id="contact">
+  <div class="contact-header">
+    <h2>Professional Inquiries</h2><br>
+    <p>Available for eLearning & Frontend roles in MNC environments.</p>
+  </div>
+
+  <form class="contact-form" id="contactForm">
+    <div class="form-row">
+      <input type="text" name="fullName" placeholder="Full Name" required>
+      <input type="text" name="company" placeholder="Company / Organization">
+    </div>
+
+    <input type="email" name="email" placeholder="Corporate Email" required>
+
+    <textarea name="message" rows="5" placeholder="Describe your inquiry..." required></textarea>
+
+    <button type="submit" class="btn-primary submit-btn">
+      ➤ Submit Inquiry
+    </button>
+  </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 Harish. All Rights Reserved.</p>
+
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/harish-developer/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.reddit.com/user/Harish026/" target="_blank"><i class="fab fa-reddit"></i></a>
+    <a href="https://x.com/HariSh394967800" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i>
+    </a>
+  </div>
+</footer>
+
+<!-- ================= CONTACT JS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  (function () {
+    emailjs.init("9pqB7hySi5e0x4L9Y");
+  })();
+</script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
